@@ -426,10 +426,10 @@ def update_prediction(n_clicks, gender, citizen, phone, multiLines,
     txt_color = 'black'
 
     if prediction == 1:
-        result_text = "The customer is likly to leave the business."
+        result_text = "The customer is likely to leave the business."
         txt_color = 'red'
     else:
-        result_text = "The customer is not likly to leave the business."
+        result_text = "The customer is not likely to leave the business."
         txt_color = 'green'
 
     return html.H1(result_text, style={'color': txt_color})
